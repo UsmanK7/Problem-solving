@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int main() {
     cout << endl;
     cout << "Pattern 7" << endl;
     cout << endl;
@@ -10,22 +10,16 @@ int main(){
     //   ***
     //  ****
 
-    for (int i = 0; i < 4; i++)
-    {
-        char staric = '*';
-        j = 3 - i;
-        while (j != 0)
-        {
+    for (int i = 0; i < 4; i++) {
+        // Print spaces
+        for (int j = 0; j < 3 - i; j++) {
             cout << " ";
-            j--;
         }
-        int z = -1;
-        while (z != i)
-        {
-            cout << staric;
-            z++;
+        // Print stars
+        for (int z = 0; z <= i; z++) {
+            cout << "*";
         }
-        cout<<endl;
+        cout << endl;
     }
 
     return 0;
