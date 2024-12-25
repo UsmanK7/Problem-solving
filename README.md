@@ -66,14 +66,15 @@ Welcome to this curated repository for mastering **Data Structures and Algorithm
 - Dynamic Programming
 - Segment Trees
 
-![DSA Illustration](https://cdn.programiz.com/sites/tutorial2program/files/algorithm-design-techniques.png)
+
 
 ## 🎯 Goals
 - Build a thorough understanding of **DSA concepts**.
 - Solve a variety of **LeetCode problems**.
 - Create structured **notes** for easy reference.
 
-![Coding Journey](https://cdn-images-1.medium.com/max/1200/1*zqzJMnxFwvGchm_hLGQzzA.png)
+![Data Structure   Algorithm (28542)](https://github.com/user-attachments/assets/8fcb22ae-09de-40fd-b38d-1f11ea7921b4)
+
 
 ---
 **Happy Learning and Coding!** 👨‍💻👩‍💻
