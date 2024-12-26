@@ -90,3 +90,75 @@ i = 2, j = 2
 i = 3, j = 1
 i = 3, j = 2
 ```
+
+
+# Infinite Loops
+An infinite loop runs indefinitely when the termination condition is never satisfied. It is usually caused by a logical error but can be intentionally used for certain scenarios.
+
+# Example:
+```
+cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    while (true) {
+        cout << "This is an infinite loop." << endl;
+    }
+    return 0;
+}
+```
+
+### Control Statements in Loops
+1. break Statement
+Exits the loop immediately, regardless of the loop condition.
+
+### Example:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    for (int i = 1; i <= 5; i++) {
+        if (i == 3) {
+            break;
+        }
+        cout << "Iteration: " << i << endl;
+    }
+    return 0;
+}
+```
+
+### Output:
+```
+Iteration: 1
+Iteration: 2
+```
+
+1. continue Statement
+Skips the current iteration and proceeds to the next iteration.
+
+### Example:
+```cpp
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    for (int i = 1; i <= 5; i++) {
+        if (i == 3) {
+            continue;
+        }
+        cout << "Iteration: " << i << endl;
+    }
+    return 0;
+}
+```
+### Output:
+```
+Iteration: 1
+Iteration: 2
+Iteration: 4
+Iteration: 5
+```
