@@ -22,7 +22,7 @@ int main() {
     return 0; // Indicate successful program termination.
 }
 
-
+```
 
 
 # Using `namespace std` in C++
