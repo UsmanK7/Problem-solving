@@ -61,3 +61,32 @@ int main() {
     return 0;
 }
 ```
+
+
+# Nested Loops
+A loop inside another loop is called a nested loop. It is commonly used for multidimensional operations like matrices.
+
+### Example:
+```
+cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    for (int i = 1; i <= 3; i++) {
+        for (int j = 1; j <= 2; j++) {
+            cout << "i = " << i << ", j = " << j << endl;
+        }
+    }
+    return 0;
+}
+```
+### Output:
+```
+i = 1, j = 1
+i = 1, j = 2
+i = 2, j = 1
+i = 2, j = 2
+i = 3, j = 1
+i = 3, j = 2
+```
