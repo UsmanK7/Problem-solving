@@ -63,6 +63,15 @@ int main() {
 ```
 
 
+## Comparison of Loops
+
+
+| **Feature**         | **`for` Loop**          | **`while` Loop**       | **`do-while` Loop**    |
+|---------------------|-------------------------|------------------------|------------------------|
+| **Condition Check**  | Before each iteration   | Before each iteration   | After each iteration    |
+| **Use Case**         | Known iterations        | Unknown iterations      | Execute at least once   |
+
+
 # Nested Loops
 A loop inside another loop is called a nested loop. It is commonly used for multidimensional operations like matrices.
 
