@@ -14,6 +14,7 @@ void passingArgumentByReference(int *ptr){
     cout << ptr << endl;
 }
 
+
 int main(){
     int a = 5;
     // passingArgumentByValue(a);
@@ -21,3 +22,12 @@ int main(){
     cout << a << endl;
     return 0;
 }
+
+
+//reference variable
+
+// int main(){
+//     int a = 5;
+//     int &b = a;
+//     cout<<b;
+// }
