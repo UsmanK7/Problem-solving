@@ -1,4 +1,3 @@
-```markdown
 # **Pointers in C++**
 
 Pointers are variables that store the **address** of another variable. They are essential for efficient memory management and dynamic programming.
