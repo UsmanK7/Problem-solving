@@ -36,31 +36,6 @@ Implementing and solving problems using:
 
 ---
 
-## 📁 Repository Structure
-
-```
-problem-solving/
-├── OOP/
-│   ├── Encapsulation/
-│   ├── Abstraction/
-│   ├── Inheritance/
-│   ├── Polymorphism/
-│   └── Examples/
-├── Data_Structures/
-│   ├── Arrays/
-│   ├── Stacks/
-│   ├── Queues/
-│   ├── Linked_Lists/
-│   ├── Trees/
-│   ├── Graphs/
-│   ├── HashMaps/
-│   ├── Heaps/
-│   └── Sets/
-└── README.md
-```
-
----
-
 ## 🚀 Goals
 
 1. Strengthen my understanding of OOP concepts with hands-on examples.
