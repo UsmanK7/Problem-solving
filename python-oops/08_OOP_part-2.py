@@ -131,19 +131,63 @@
 # Property decorater 
 #################
 
-class Student:
-    def __init__(self,phy,chem,math):
-        self.phy = phy
-        self.chem = chem
-        self.math = math 
+# class Student:
+#     def __init__(self,phy,chem,math):
+#         self.phy = phy
+#         self.chem = chem
+#         self.math = math 
     
-    @property
-    def calAverage(self):
-        return (self.chem+self.math+self.phy)/3
+#     @property
+#     def calAverage(self):
+#         return (self.chem+self.math+self.phy)/3
     
-st1 = Student(93,42,54)
-print(st1.calAverage)
+# st1 = Student(93,42,54)
+# print(st1.calAverage)
 
-st1.chem = 90
-print(st1.calAverage)
+# st1.chem = 90
+# print(st1.calAverage)
 
+
+#################
+# Polymorphism (Operator overloading with dunder functions) 
+#################
+
+# class Complex:
+#     def __init__(self,real,img):
+#         self.real = real
+#         self.img = img
+#     def showNumber(self):
+#         print(f"{self.real} i + {self.img} j")
+#     def __add__(self,num2):
+#        newReal = self.real + num2.real
+#        newImg = self.img + num2.img
+#        return Complex(newReal,newImg)
+
+
+# num1 = Complex(5,4)
+# num2 = Complex(5,6)
+
+# num1.showNumber()
+# num1 + num2
+# num2.showNumber()
+ 
+# num3 = num1 + num2 
+# num3.showNumber()
+
+
+# OOPS Practice
+
+class Circle:
+    pi = 3.14
+    def __init__(self, r):
+        self.r = r
+    def calArea(self):
+        return self.pi*self.r*self.r
+    def calPeri(self):
+        return 2*self.pi*self.r
+    
+    
+c1 = Circle(20)
+
+print(c1.calArea())
+print(c1.calPeri())
