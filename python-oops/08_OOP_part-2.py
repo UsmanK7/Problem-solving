@@ -177,17 +177,29 @@
 
 # OOPS Practice
 
-class Circle:
-    pi = 3.14
-    def __init__(self, r):
-        self.r = r
-    def calArea(self):
-        return self.pi*self.r*self.r
-    def calPeri(self):
-        return 2*self.pi*self.r
+# class Circle:
+#     pi = 3.14
+#     def __init__(self, r):
+#         self.r = r
+#     def calArea(self):
+#         return self.pi*self.r*self.r
+#     def calPeri(self):
+#         return 2*self.pi*self.r
     
     
-c1 = Circle(20)
+# c1 = Circle(20)
 
-print(c1.calArea())
-print(c1.calPeri())
+# print(c1.calArea())
+# print(c1.calPeri())
+
+
+class Order:
+    def __init__(self,item,price):
+        self.item = item
+        self.price = price 
+    def __gt__(self,item2):
+        return self.price > item2.price
+od1 = Order("Chips",20)  
+od2 = Order("Tea",10)  
+
+print(od1 > od2)
