@@ -38,20 +38,91 @@
 # Inheritance
 #################
 
-class Car:
-    @staticmethod 
-    def start():
-        print("car started.. BRHUM BRHUM BRHUM")
-    @staticmethod 
-    def stop():
-        print("car stopped...CHIIIIIIIN")
+# class Car:
+#     @staticmethod 
+#     def start():
+#         print("car started.. BRHUM BRHUM BRHUM")
+#     @staticmethod 
+#     def stop():
+#         print("car stopped...CHIIIIIIIN")
 
 
-class ToyotaCar(Car):
-    def __init__(self,name):
-        self.name = name
+# class ToyotaCar(Car):
+#     def __init__(self,name):
+#         self.name = name
 
-car1 = ToyotaCar("fortuner")
-car2 = ToyotaCar("prius")
+# car1 = ToyotaCar("fortuner")
+# car2 = ToyotaCar("prius")
 
-car1.stop()
+# car1.stop()
+
+#################
+# Multi level Inheritance
+#################
+
+# class Car:
+#     @staticmethod 
+#     def start():
+#         print("car started.. BRHUM BRHUM BRHUM")
+#     @staticmethod 
+#     def stop():
+#         print("car stopped...CHIIIIIIIN")
+
+
+# class ToyotaBrand(Car):
+#     def __init__(self,brand):
+#         self.brand = brand
+
+# class ToyotaCar(ToyotaBrand):
+#     def __init__(self,name):
+#         self.name = name
+
+# car1 = ToyotaCar("fortuner")
+# car2 = ToyotaCar("prius")
+
+# car1.start()
+
+#################
+# Multiple Inheritance
+#################
+
+# class A:
+#     varA = "Welcome to class A"
+
+# class B:
+#     varB = "Welcome to class B"
+
+# class C(A,B):
+#     varC = "Welcome to class C"
+
+# c = C()
+# print(c.varA)
+# print(c.varB)
+# print(c.varC)
+
+#################
+# Super method 
+#################
+
+# class Car:
+#     def __init__(self,type):
+#         self.type = type
+
+#     @staticmethod 
+#     def start():
+#         print("car started.. BRHUM BRHUM BRHUM")
+#     @staticmethod 
+#     def stop():
+#         print("car stopped...CHIIIIIIIN")
+
+# class ToyotaCar(Car):
+#     def __init__(self,name,type):
+#         super().__init__(type)
+#         self.name = name
+    
+
+# car1 = ToyotaCar("fortuner","electric")
+# car2 = ToyotaCar("prius","electric")
+
+# print(car1.type)
+
