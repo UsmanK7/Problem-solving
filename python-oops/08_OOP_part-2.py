@@ -126,3 +126,24 @@
 
 # print(car1.type)
 
+
+#################
+# Property decorater 
+#################
+
+class Student:
+    def __init__(self,phy,chem,math):
+        self.phy = phy
+        self.chem = chem
+        self.math = math 
+    
+    @property
+    def calAverage(self):
+        return (self.chem+self.math+self.phy)/3
+    
+st1 = Student(93,42,54)
+print(st1.calAverage)
+
+st1.chem = 90
+print(st1.calAverage)
+
