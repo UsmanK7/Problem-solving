@@ -193,13 +193,13 @@
 # print(c1.calPeri())
 
 
-class Order:
-    def __init__(self,item,price):
-        self.item = item
-        self.price = price 
-    def __gt__(self,item2):
-        return self.price > item2.price
-od1 = Order("Chips",20)  
-od2 = Order("Tea",10)  
+# class Order:
+#     def __init__(self,item,price):
+#         self.item = item
+#         self.price = price 
+#     def __gt__(self,item2):
+#         return self.price > item2.price
+# od1 = Order("Chips",20)  
+# od2 = Order("Tea",10)  
 
-print(od1 > od2)
+# print(od1 > od2)
